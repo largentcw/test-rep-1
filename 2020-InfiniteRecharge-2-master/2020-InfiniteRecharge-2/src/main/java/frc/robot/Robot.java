@@ -150,7 +150,9 @@ public class Robot extends TimedRobot {
 
     if(operator.getRawButtonPressed(Constants.climbdownright) && climbsub1.getEncoder() < Constants.minencodervalue)
     {
-      
+      climbdownleftcommand.climb();
+      //testestestesteststest
+
     }
     
   }
